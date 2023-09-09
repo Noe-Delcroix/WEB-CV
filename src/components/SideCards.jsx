@@ -2,7 +2,7 @@ import React from "react";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
-export const SideLinks = () => {
+export const SideCards = () => {
     return (
         <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
             <ul>

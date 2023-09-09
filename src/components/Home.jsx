@@ -20,14 +20,14 @@ export const Home = () => {
 
                 <div className="h-full md:w-1/2 w-80 lg:pl-10 flex flex-col justify-around items-center lg:items-stretch">
 
-                    <h2 className="text-black lg:text-5xl text-3xl uppercase tracking-widest">Welcome</h2>
+                    <h2 className="text-black lg:text-5xl text-3xl uppercase tracking-widest text-center">Welcome</h2>
 
                     <div className="w-full flex flex-col lm:items-center">
-                        <p className="text-gray-700 font-light">My name is</p>
+                        {/*<p className="text-gray-700 font-light">My name is</p>*/}
                         <h1 className="lg:text-6xl text-4xl lg:-mt-2 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] uppercase">Noé Delcroix</h1>
 
-                        <p className="text-gray-700 font-light">I am a</p>
-                        <div className="bg-red-500 p-2 w-full bg-gradient-to-r from-[#FF8F28] to-[#FFD600]">
+                        {/*<p className="text-gray-700 font-light">I am a</p>*/}
+                        <div className="p-2 w-full bg-gradient-to-r from-[#FF8F28] to-[#FFD600]">
                             <h1 className="lg:text-4xl text-2xl font-bold text-black">Full Stack Developper</h1>
                         </div>
                     </div>
