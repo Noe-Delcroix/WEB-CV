@@ -15,37 +15,37 @@ const Navbar = () => {
             </div>
 
             <ul className="hidden md:flex drop-shadow">
-                <li>
+                <li className="cursor-pointer px-4">
                     <Link to='home' smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer px-4">
                     <Link to='about' smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer px-4">
                     <Link to='experience' smooth={true} duration={500}>
                         Experience
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer px-4">
                     <Link to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer px-4">
                     <Link to='projects' smooth={true} duration={500}>
                         Projects
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer px-4">
                     <Link to='hobbies' smooth={true} duration={500}>
                         Hobbies
                     </Link>
                 </li>
-                <li>
+                <li className="cursor-pointer px-4">
                     <Link to='contact' smooth={true} duration={500}>
                         Contact
                     </Link>

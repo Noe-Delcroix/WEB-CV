@@ -44,7 +44,7 @@ export const Skills = () => {
         <section name="skills"
                  className="bg-[#F4F0F0] flex justify-center">
 
-            <div className="w-8/12 bg-white my-20 pb-32">
+            <div className="sm:w-8/12 w-full bg-white my-20 pb-10">
 
                 <div className="p-4 text-4xl font-bold uppercase tracking-widest w-full bg-gradient-to-r from-[#FF8F28] to-[#FFD600] flex justify-center">
                     <h1>Skills</h1>
@@ -73,7 +73,7 @@ export const Skills = () => {
                             onClick={() => setActiveTab(3)}
                             className={`py-2 px-6 ${activeTab === 3 ? 'border-b-2 border-[#FF8F28]' : ''}`}>
                             <p className="text-2xl font-bold uppercase">
-                                Tools & Softwares
+                                Tools & Software
                             </p>
                         </button>
                     </div>
@@ -125,24 +125,38 @@ export const Skills = () => {
                     </div>
                     <div className="w-full h-[4px] mb-10 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
-                    <div>
-                        <div>
-                            <UK></UK>
-                            <DE></DE>
+                    <div className="flex lg:flex-row flex-col items-center justify-around w-full mb-10">
+                        <div className="relative group hover:bg-opacity-50 bg-black overflow-hidden shadow-2xl m-3 max-w-xs">
+                            <div className="relative w-full h-full filter transition-all duration-500 ease-in-out group-hover:blur group-hover:brightness-75">
+                                <UK className="w-full h-full transition-transform duration-500 ease-in-out" />
+                            </div>
+                            <div className="absolute inset-0 flex flex-col justify-center items-center transform translateY-4 opacity-0 group-hover:opacity-100 group-hover:translateY-0 transition-all duration-500 ease-in-out">
+                                <h2 className="text-white text-4xl font-extrabold mb-5 drop-shadow-lg">English - B2+</h2>
+                                <p className="text-white text-2xl font-bold drop-shadow-lg">TOEIC : 940/990</p>
+                            </div>
+                        </div>
+
+                        <div className="relative group hover:bg-opacity-50 bg-black overflow-hidden shadow-2xl m-3 max-w-xs">
+                            <div className="relative w-full h-full filter transition-all duration-500 ease-in-out group-hover:blur group-hover:brightness-75">
+                                <DE className="w-full h-full transition-transform duration-500 ease-in-out" />
+                            </div>
+                            <div className="absolute inset-0 flex flex-col justify-center items-center transform translateY-4 opacity-0 group-hover:opacity-100 group-hover:translateY-0 transition-all duration-500 ease-in-out">
+                                <h2 className="text-white text-4xl font-extrabold drop-shadow-lg">German - A2</h2>
+                            </div>
                         </div>
                     </div>
 
                     <div className="p-2 text-3xl font-extrabold uppercase tracking-widest w-full">
                         <h1>Soft Skills</h1>
                     </div>
-                    <div className="w-full h-[4px] mb-10 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
+                    <div className="w-full h-[4px] mb-5 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
 
-                    <ul className="w-full flex flex-col justify-center text-center cursor-none">
-                        <li className="text-2xl p-3 font-bold">Agile methodology</li>
-                        <li className="text-2xl p-3">Teamwork</li>
-                        <li className="text-2xl p-3">Creativity</li>
-                        <li className="text-2xl p-3">Curiosity</li>
+                    <ul className="w-full flex flex-col justify-center text-center">
+                        <li className="text-2xl my-2 font-bold">Agile methodology</li>
+                        <li className="text-2xl my-2">Teamwork</li>
+                        <li className="text-2xl my-2">Creativity</li>
+                        <li className="text-2xl my-2">Curiosity</li>
                     </ul>
                 </div>
 

@@ -8,9 +8,5 @@
     body {
         @apply font-[Roboto];
     }
-    li {
-        @apply px-4;
-        @apply cursor-pointer
-    }
 }
 
