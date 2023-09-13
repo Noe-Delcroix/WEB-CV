@@ -7,7 +7,9 @@ import {Skills} from "./components/Skills/Skills";
 import {Projects} from "./components/Projects/Projects";
 import {Hobbies} from "./components/Hobbies";
 import {Contact} from "./components/Contact";
+import { PdfProvider } from './components/pdf/PdfProvider.jsx';
 import i18n from "i18next";
+
 
 function App() {
 
@@ -18,8 +20,10 @@ function App() {
 
     return (
         <div>
-            <Navbar />
-            <SideCards />
+            <PdfProvider>
+                <Navbar />
+                <SideCards />
+            </PdfProvider>
             <Home />
             <About />
             <Experience />

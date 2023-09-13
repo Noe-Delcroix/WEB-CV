@@ -1,33 +1,18 @@
-import React, {useState} from "react";
+import React, {useState,useContext} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import { Link } from 'react-scroll';
 import {LanguageSelector} from "./LanguageSelector";
 import {useTranslation} from "react-i18next";
 import {AiOutlineDownload} from "react-icons/ai";
-
-import resumeFR from "../assets/documents/resume-fr.pdf";
-
+import { PdfContext } from './pdf/PdfContext.jsx';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => {setNav(!nav);}
 
+    const { downloadPdf } = useContext(PdfContext);
+
     const { t,i18n } = useTranslation();
-
-    const pdfMap = {
-        fr: resumeFR,
-    };
-
-    const downloadPdfFromFile = () => {
-        const link = document.createElement('a');
-        //link.href = pdfMap[i18n.language] || resumeEN;
-        //TODO : translate resume
-        link.href = resumeFR;
-        link.download = t('nav.button')+'_Noé_Delcroix.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
 
     return (
         <nav className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#F4F0F0] text-black z-50">
@@ -35,12 +20,12 @@ const Navbar = () => {
                 <div className="pr-5">
                     <h1 className="sm:flex hidden text-2xl md:text-4xl uppercase drop-shadow">Noé Delcroix</h1>
                 </div>
-                <a className="flex flex-row items-center border-2 border-black duration-300 bg-gradient-to-r from-[#FF8F28] to-[#FFD600] px-2" onClick={downloadPdfFromFile}>
+                <div className="flex cursor-pointer items-center border-2 border-black duration-300 bg-gradient-to-r from-[#FF8F28] to-[#FFD600] px-2" onClick={downloadPdf}>
                     <AiOutlineDownload className="md:pr-2 text-2xl font-bold"/>
                     <p className="md:flex hidden font-bold">
                         {t('nav.button')}
                     </p>
-                </a>
+                </div>
             </div>
 
             <ul className="hidden md:flex drop-shadow">

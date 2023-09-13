@@ -1,16 +1,19 @@
-import React from "react";
+import React, {useContext} from "react";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
 import {useTranslation} from "react-i18next";
+import {PdfContext} from "./pdf/PdfContext.jsx";
 export const SideCards = () => {
     const { t } = useTranslation();
+
+    const { downloadPdf } = useContext(PdfContext);
 
     return (
         <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
             <ul>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-gradient-to-r from-[#FF8F28] to-[#FFD600] px-4 duration-300 bg-white drop-shadow">
-                    <a className="flex justify-between items-center w-full text-black">
+                    <a className="flex justify-between items-center w-full text-black cursor-pointer" onClick={downloadPdf}>
                         {t('side.resume')}
                         <BsFillPersonLinesFill size={30}/>
                     </a>
