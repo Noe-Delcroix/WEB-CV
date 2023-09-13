@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef64d02c.css",
-    "main.js": "/static/js/main.1f6f157b.js",
+    "main.css": "/static/css/main.e46bca1b.css",
+    "main.js": "/static/js/main.dbc81331.js",
     "static/media/jeu-du-confinement.png": "/static/media/jeu-du-confinement.9f7c07130dfd6447d9b4.png",
     "static/media/music.png": "/static/media/music.213e133fab38723a8f88.png",
     "static/media/minecraft-clone.png": "/static/media/minecraft-clone.cf7ded66514e0cf31a7b.png",
@@ -40,11 +40,11 @@
     "static/media/css.png": "/static/media/css.57feb85c31eec0ff2e1a.png",
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/index.html",
-    "main.ef64d02c.css.map": "/static/css/main.ef64d02c.css.map",
-    "main.1f6f157b.js.map": "/static/js/main.1f6f157b.js.map"
+    "main.e46bca1b.css.map": "/static/css/main.e46bca1b.css.map",
+    "main.dbc81331.js.map": "/static/js/main.dbc81331.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef64d02c.css",
-    "static/js/main.1f6f157b.js"
+    "static/css/main.e46bca1b.css",
+    "static/js/main.dbc81331.js"
   ]
 }
