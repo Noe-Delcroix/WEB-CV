@@ -119,30 +119,20 @@ export const Skills = () => {
                         </div>
                     )}
 
-
                     <div className="p-2 text-3xl font-extrabold uppercase tracking-widest w-full">
                         <h1>Language Skills</h1>
                     </div>
                     <div className="w-full h-[4px] mb-10 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
-                    <div className="flex lg:flex-row flex-col items-center justify-around w-full mb-10">
-                        <div className="relative group hover:bg-opacity-50 bg-black overflow-hidden shadow-2xl m-3 max-w-xs">
-                            <div className="relative w-full h-full filter transition-all duration-500 ease-in-out group-hover:blur group-hover:brightness-75">
-                                <UK className="w-full h-full transition-transform duration-500 ease-in-out" />
-                            </div>
-                            <div className="absolute inset-0 flex flex-col justify-center items-center transform translateY-4 opacity-0 group-hover:opacity-100 group-hover:translateY-0 transition-all duration-500 ease-in-out">
-                                <h2 className="text-white text-4xl font-extrabold mb-5 drop-shadow-lg">English - B2+</h2>
-                                <p className="text-white text-2xl font-bold drop-shadow-lg">TOEIC : 940/990</p>
-                            </div>
+                    <div className="flex flex-col lg:flex-row justify-center mb-5">
+                        <div className="flex flex-col justify-between items-center shadow-xl bg-[#F4F0F0] hover:scale-110 duration-500 my-2 mx-0 lg:m-10">
+                            <UK className="w-1/2 p-5"/>
+                            <p className="font-extrabold">TOEIC : 940/990</p>
+                            <h1 className="bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-extrabold w-full text-center text-3xl p-1">English - B2+</h1>
                         </div>
-
-                        <div className="relative group hover:bg-opacity-50 bg-black overflow-hidden shadow-2xl m-3 max-w-xs">
-                            <div className="relative w-full h-full filter transition-all duration-500 ease-in-out group-hover:blur group-hover:brightness-75">
-                                <DE className="w-full h-full transition-transform duration-500 ease-in-out" />
-                            </div>
-                            <div className="absolute inset-0 flex flex-col justify-center items-center transform translateY-4 opacity-0 group-hover:opacity-100 group-hover:translateY-0 transition-all duration-500 ease-in-out">
-                                <h2 className="text-white text-4xl font-extrabold drop-shadow-lg">German - A2</h2>
-                            </div>
+                        <div className="flex flex-col justify-between items-center shadow-xl bg-[#F4F0F0] hover:scale-110 duration-500 my-2 mx-0 lg:m-10">
+                            <DE className="w-1/2 p-5"/>
+                            <h1 className="bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-extrabold w-full text-center text-3xl p-1">German - A2</h1>
                         </div>
                     </div>
 
