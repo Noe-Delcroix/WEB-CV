@@ -3,6 +3,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import { Link } from 'react-scroll';
 import {LanguageSelector} from "./LanguageSelector";
 import {useTranslation} from "react-i18next";
+import {AiOutlineDownload} from "react-icons/ai";
 
 
 const Navbar = () => {
@@ -13,8 +14,16 @@ const Navbar = () => {
 
     return (
         <nav className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#F4F0F0] text-black z-50">
-            <div>
-                <h1 className="text-2xl md:text-4xl uppercase drop-shadow">Noé Delcroix</h1>
+            <div className="flex flex-row justify-start items-center">
+                <div className="pr-5">
+                    <h1 className="sm:flex hidden text-2xl md:text-4xl uppercase drop-shadow">Noé Delcroix</h1>
+                </div>
+                <a className="flex flex-row items-center border-2 border-black duration-300 bg-gradient-to-r from-[#FF8F28] to-[#FFD600] px-2" href={"../assets/documents/resume-"+ t.language +".pdf"} target="_blank">
+                    <AiOutlineDownload className="md:pr-2 text-2xl font-bold"/>
+                    <p className="md:flex hidden font-bold">
+                        {t('nav.button')}
+                    </p>
+                </a>
             </div>
 
             <ul className="hidden md:flex drop-shadow">

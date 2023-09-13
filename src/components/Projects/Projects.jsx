@@ -12,73 +12,75 @@ import Lightflix from '../../assets/images/projects/lightflix.png';
 import LaCarteAuxTresors from '../../assets/images/projects/la-carte-aux-tresors.jpg';
 
 import Project from './Project';
+import {useTranslation} from "react-i18next";
 
 export const Projects = () => {
 
     const [activeIndex, setActiveIndex] = useState(0);
+    const { t } = useTranslation();
 
     const slides = [
         {
             backgroundImage: MinecraftClone,
-            component: <Project title="Minecraft Clone"
-                                date="September 2023"
+            component: <Project title={t("projects.minecraftclone.title")}
+                                date={t("projects.minecraftclone.date")}
                                 isSchoolProject={false}
-                                description="Minecraft remade from scratch in C# with OpenGL. Includes a custom game engine and a world generator"
+                                description={t("projects.minecraftclone.desc")}
                                 technologies={["C# .Net 7","OpenGL"]}
                                 githubLink="https://github.com/Noe-Delcroix/MinecraftClone"/>,
         },
         {
             backgroundImage: LaCarteAuxTresors,
-            component: <Project title='"La carte aux trésors" (Treasure map)'
-                                date="June 2023"
+            component: <Project title={t("projects.treasuremap.title")}
+                                date={t("projects.treasuremap.date")}
                                 isSchoolProject={true}
-                                description="Cross-platform geocaching application, with connection system, based on Firebase database"
+                                description={t("projects.treasuremap.desc")}
                                 technologies={["Flutter","Dart","Firebase"]}
                                 githubLink="https://github.com/Noe-Delcroix/la_carte_aux_tresors"/>
         },
         {
             backgroundImage: Lightflix,
-            component: <Project title="LightFlix"
-                                date="March 2022"
+            component: <Project title={t("projects.lightflix.title")}
+                                date={t("projects.lightflix.date")}
                                 isSchoolProject={true}
-                                description="Online series catalog with search page, series information and episode listings. Uses TVMaze API for series information and statistics"
+                                description={t("projects.lightflix.desc")}
                                 technologies={["HTML","CSS","JavaScript"]}
                                 githubLink="https://github.com/Noe-Delcroix/Lightflix"/>
         },
         {
             backgroundImage: ThreeDVisualizer,
-            component: <Project title="3D Visualizer"
-                                date="December 2021"
+            component: <Project title={t("projects.3d.title")}
+                                date={t("projects.3d.date")}
                                 isSchoolProject={true}
-                                description="3D file visualization software (.ply) with integrated file library and extensive display customization"
+                                description={t("projects.3d.desc")}
                                 technologies={["Java","JavaFX"]}
                                 githubLink="https://github.com/Noe-Delcroix/Visualisateur-3D"/>
         },
         {
             backgroundImage: AntSimulation,
-            component: <Project title="Ant Simulation"
-                                date="March 2021"
+            component: <Project title={t("projects.ant.title")}
+                                date={t("projects.ant.date")}
                                 isSchoolProject={false}
-                                description="A program designed to simulate the behavior of ants as they go back and forth to collect food and return it to the colony, using pheromones to orient themselves."
+                                description={t("projects.ant.desc")}
                                 technologies={["Java","Processing"]}
                                 githubLink="https://github.com/Noe-Delcroix/Ant-Simulation"/>
         },
         {
             backgroundImage: JeuDuConfinement,
-            component: <Project title='"Le Jeu du confinement" (Lockdown game)'
+            component: <Project title={t("projects.lockdown.title")}
                                 date="May 2020"
                                 isSchoolProject={false}
-                                description="An 8bit-style arcade game. Try to do your shopping in a supermarket while respecting the social distancing rules."
+                                description={t("projects.lockdown.desc")}
                                 technologies={["JavaScript","p5.js"]}
                                 githubLink="https://github.com/Noe-Delcroix/Le-Jeu-Du-Confinement"
                                 onlineLink="https://editor.p5js.org/Noway/full/650cnr2WN"/>
         },
         {
             backgroundImage: TileBasedPlatformer,
-            component: <Project title="Tile-Based Platformer"
-                                date="March 2020"
+            component: <Project title={t("projects.platformer.title")}
+                                date={t("projects.platformer.date")}
                                 isSchoolProject={false}
-                                description="A 2D platformer with simplistic graphics, an integrated level editor and a level-saving system."
+                                description={t("projects.platformer.desc")}
                                 technologies={["JavaScript","p5.js"]}
                                 githubLink="https://github.com/Noe-Delcroix/Tile-Based-Platformer"
                                 onlineLink="https://editor.p5js.org/Noway/full/evY_AHGk1"/>

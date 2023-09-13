@@ -35,10 +35,12 @@ import PowerPoint from "../../assets/images/skills/software/powerpoint.png";
 
 import UK from 'country-flag-icons/react/3x2/GB';
 import DE from 'country-flag-icons/react/3x2/DE';
+import {useTranslation} from "react-i18next";
 
 export const Skills = () => {
 
     const [activeTab, setActiveTab] = useState(1);
+    const { t } = useTranslation();
 
     return (
         <section name="skills"
@@ -47,10 +49,10 @@ export const Skills = () => {
             <div className="sm:w-8/12 w-full bg-white my-20 pb-10">
 
                 <div className="p-4 text-4xl font-bold uppercase tracking-widest w-full bg-gradient-to-r from-[#FF8F28] to-[#FFD600] flex justify-center">
-                    <h1>Skills</h1>
+                    <h1>{t('nav.skills')}</h1>
                 </div>
 
-                <p className="w-full text-center text-gray-500 mt-10">/* These are the technologies I've worked with in the past */</p>
+                <p className="w-full text-center text-gray-500 mt-10">{t('skills.desc')}</p>
 
                 <div className="mx-20 mt-10">
                     <div className="flex justify-center border-b-2">
@@ -58,7 +60,7 @@ export const Skills = () => {
                             onClick={() => setActiveTab(1)}
                             className={`py-2 px-6 ${activeTab === 1 ? 'border-b-2 border-[#FF8F28]' : ''}`}>
                             <p className="text-2xl font-bold uppercase">
-                                Programing Languages
+                                {t('skills.tab1')}
                             </p>
 
                         </button>
@@ -66,14 +68,14 @@ export const Skills = () => {
                             onClick={() => setActiveTab(2)}
                             className={`py-2 px-6 ${activeTab === 2 ? 'border-b-2 border-[#FF8F28]' : ''}`}>
                             <p className="text-2xl font-bold uppercase">
-                                Frameworks & Libraries
+                                {t('skills.tab2')}
                             </p>
                         </button>
                         <button
                             onClick={() => setActiveTab(3)}
                             className={`py-2 px-6 ${activeTab === 3 ? 'border-b-2 border-[#FF8F28]' : ''}`}>
                             <p className="text-2xl font-bold uppercase">
-                                Tools & Software
+                                {t('skills.tab3')}
                             </p>
                         </button>
                     </div>
@@ -120,33 +122,33 @@ export const Skills = () => {
                     )}
 
                     <div className="p-2 text-3xl font-extrabold uppercase tracking-widest w-full">
-                        <h1>Language Skills</h1>
+                        <h1>{t('skills.subtitle1')}</h1>
                     </div>
                     <div className="w-full h-[4px] mb-10 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
                     <div className="flex flex-col lg:flex-row justify-center mb-5">
                         <div className="flex flex-col justify-between items-center shadow-xl bg-[#F4F0F0] hover:scale-110 duration-500 my-2 mx-0 lg:m-10">
                             <UK className="w-1/2 p-5"/>
-                            <p className="font-extrabold">TOEIC : 940/990</p>
-                            <h1 className="bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-extrabold w-full text-center text-3xl p-1">English - B2+</h1>
+                            <p className="font-extrabold">{t('skills.lang.en2')}</p>
+                            <h1 className="bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-extrabold w-full text-center text-3xl p-1">{t('skills.lang.en')}</h1>
                         </div>
                         <div className="flex flex-col justify-between items-center shadow-xl bg-[#F4F0F0] hover:scale-110 duration-500 my-2 mx-0 lg:m-10">
                             <DE className="w-1/2 p-5"/>
-                            <h1 className="bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-extrabold w-full text-center text-3xl p-1">German - A2</h1>
+                            <h1 className="bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-extrabold w-full text-center text-3xl p-1">{t('skills.lang.de')}</h1>
                         </div>
                     </div>
 
                     <div className="p-2 text-3xl font-extrabold uppercase tracking-widest w-full">
-                        <h1>Soft Skills</h1>
+                        <h1>{t('skills.subtitle2')}</h1>
                     </div>
                     <div className="w-full h-[4px] mb-5 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
 
                     <ul className="w-full flex flex-col justify-center text-center">
-                        <li className="text-2xl my-2 font-bold">Agile methodology</li>
-                        <li className="text-2xl my-2">Teamwork</li>
-                        <li className="text-2xl my-2">Creativity</li>
-                        <li className="text-2xl my-2">Curiosity</li>
+                        <li className="text-2xl my-2 font-bold">{t('skills.soft1')}</li>
+                        <li className="text-2xl my-2">{t('skills.soft2')}</li>
+                        <li className="text-2xl my-2">{t('skills.soft3')}</li>
+                        <li className="text-2xl my-2">{t('skills.soft4')}</li>
                     </ul>
                 </div>
 

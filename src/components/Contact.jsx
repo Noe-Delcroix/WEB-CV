@@ -16,7 +16,7 @@ export const Contact = () => {
                     </a>
 
                     <a href="mailto:noe.delcroix59@gmail.com" className="border-2 border-black m-4 px-2 py-1 text-2xl flex justify-center items-center drop-shadow-xl">
-                        <HiOutlineMail className="pr-1"/> Mail : noe.delcroix59@gmail.com
+                        <HiOutlineMail className="pr-1"/> Email : noe.delcroix59@gmail.com
                     </a>
 
                     <a href="https://www.linkedin.com/in/no%C3%A9-delcroix-0ab6411b8/" className="border-2 border-black m-4 px-2 py-1 text-2xl flex justify-center items-center drop-shadow-xl">

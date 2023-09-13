@@ -29,7 +29,7 @@ export const About = () => {
             <div className="sm:w-8/12 w-full bg-white my-20 pb-10">
 
                 <div className="p-4 text-4xl font-bold uppercase tracking-widest w-full bg-gradient-to-r from-[#FF8F28] to-[#FFD600] flex justify-center">
-                    <h1>{t('about')}</h1>
+                    <h1>{t('nav.about')}</h1>
                 </div>
 
                 <div className="flex flex-col lg:flex-row justify-around items-center lg:px-10">
@@ -39,16 +39,19 @@ export const About = () => {
 
                     <div className="lg:w-2/3  flex flex-col items-center justify-end px-10 lg:p-10 ">
                         <h1 className="text-4xl font-bold mb-10">
-                            Hello, my name is <b className="text-6xl font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent">Noé</b>, nice to meet you !
+                            {t('about.title1')} <b className="text-6xl font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent">Noé</b>{t('about.title2')}
                         </h1>
 
                         <p className="text-xl text-justify">
-                            I'm a {age} years old french developer, currently following a work-study program as a web developer in a french children's clothing company called Vertbaudet.
-                            I'm studying computer science and network engineering at IMT Nord Europe.
+                            {t('about.p1').replace("{0}", age)}
                         </p>
 
-                        <p className="text-xl text-justify mt-10">
-                            I've been passionate about computers and development for a long time and I'm always looking for new challenges to discover new technologies !
+                        <p className="text-xl text-justify mt-5">
+                            {t('about.p2')}
+                        </p>
+
+                        <p className="text-xl mt-5 text-justify">
+                            <b>{t('about.p3')}</b>
                         </p>
 
 
