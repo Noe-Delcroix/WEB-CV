@@ -233,7 +233,7 @@ i18n
 
                     "hobbies.desc":"/* Ce que j'aime faire quand je ne travaille pas */",
                     "hobbies.hobby1.title":"Production Musicale",
-                    "hobbies.hobby1.desc":"Je compose et produit de la musique sur <b>FL Studio</b> depuis environ 3 ans. Je fais principalement de la <b>musique électronique</b>, mais j'essaie d'expérimenter avec autant de styles que possible pour découvrir de nouveaux sons.",
+                    "hobbies.hobby1.desc":"Je compose et produis de la musique sur <b>FL Studio</b> depuis environ 3 ans. Je fais principalement de la <b>musique électronique</b>, mais j'essaie d'expérimenter avec autant de styles que possible pour découvrir de nouveaux sons.",
                     "hobbies.hobby2.title":"Jeux Vidéos",
                     "hobbies.hobby2.desc":"J'ai toujours aimé jouer aux jeux vidéo pendant mon temps libre. J'aime surtout les jeux avec des éditeurs de niveaux intégrés pour pouvoir exprimer ma créativité, comme <b>Minecraft</b>, <b>Trackmania</b> ou <b>Geometry Dash</b>. Mais j'aime aussi jouer avec des amis, par exemple sur <b>Rocket League</b>.",
                     "hobbies.hobby3.title":"Séries",

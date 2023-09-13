@@ -42,15 +42,15 @@ export const About = () => {
                             {t('about.title1')} <b className="text-6xl font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent">Noé</b>{t('about.title2')}
                         </h1>
 
-                        <p className="text-xl text-justify">
+                        <p className="text-xl sm:text-justify">
                             {t('about.p1').replace("{0}", age)}
                         </p>
 
-                        <p className="text-xl text-justify mt-5">
+                        <p className="text-xl sm:text-justify mt-5">
                             {t('about.p2')}
                         </p>
 
-                        <p className="text-xl mt-5 text-justify">
+                        <p className="text-xl mt-5 sm:text-justify">
                             <b>{t('about.p3')}</b>
                         </p>
 

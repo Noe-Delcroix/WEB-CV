@@ -70,41 +70,40 @@ const Navbar = () => {
                 {nav ? <FaTimes/> : <FaBars className="text-2xl"/>}
             </div>
 
-
             <div className={!nav ? "hidden" : "absolute z-40 top-0 left-0 w-full h-screen bg-[#F4F0F0] flex flex-col items-center"}>
-                <h1 className="font-extrabold text-center text-transparent text-8xl bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] uppercase py-10 drop-shadow">Menu</h1>
+                <h1 className="font-extrabold text-center text-transparent text-6xl bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] uppercase py-10 drop-shadow">Menu</h1>
                 <ul className="flex flex-col justify-center items-center">
-                    <li className="py-6 text-4xl cursor-pointer">
+                    <li className="py-3 text-2xl cursor-pointer">
                         <Link onClick={handleClick} to='home' smooth={true} duration={500}>
                             {t('nav.home')}
                         </Link>
                     </li>
-                    <li className="py-6 text-4xl cursor-pointer">
+                    <li className="py-3 text-2xl cursor-pointer">
                         <Link onClick={handleClick} to='about' smooth={true} duration={500}>
                             {t('nav.about')}
                         </Link>
                     </li>
-                    <li className="py-6 text-4xl cursor-pointer">
+                    <li className="py-3 text-2xl cursor-pointer">
                         <Link onClick={handleClick} to='experience' smooth={true} duration={500}>
                             {t('nav.experience')}
                         </Link>
                     </li>
-                    <li className="py-6 text-4xl cursor-pointer">
+                    <li className="py-3 text-2xl cursor-pointer">
                         <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
                             {t('nav.skills')}
                         </Link>
                     </li>
-                    <li className="py-6 text-4xl cursor-pointer">
+                    <li className="py-3 text-2xl cursor-pointer">
                         <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
                             {t('nav.projects')}
                         </Link>
                     </li>
-                    <li className="py-6 text-4xl cursor-pointer">
+                    <li className="py-3 text-2xl cursor-pointer">
                         <Link onClick={handleClick} to='hobbies' smooth={true} duration={500}>
                             {t('nav.hobbies')}
                         </Link>
                     </li>
-                    <li className="py-6 text-4xl cursor-pointer">
+                    <li className="py-3 text-2xl cursor-pointer">
                         <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
                             {t('nav.contact')}
                         </Link>

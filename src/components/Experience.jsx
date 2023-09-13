@@ -7,7 +7,7 @@ export const Experience = () => {
         <section name="experience"
                  className="bg-[#F4F0F0] flex justify-center">
 
-            <div className="sm:w-8/12 w-full bg-white my-20 pb-10">
+            <div className="md:w-8/12 w-full bg-white my-20 pb-10">
 
                 <div className="p-4 text-4xl font-bold uppercase tracking-widest w-full bg-gradient-to-r from-[#FF8F28] to-[#FFD600] flex justify-center">
                     <h1>{t('nav.experience')}</h1>
@@ -15,18 +15,18 @@ export const Experience = () => {
 
                 <div className="relative wrap overflow-hidden p-10">
 
-                    <div className="p-2 text-3xl font-extrabold uppercase tracking-widest w-full">
+                    <div className="p-2 text-2xl md:text-3xl text-center font-extrabold uppercase tracking-widest w-full">
                         <h1>{t('experience.subtitle1')}</h1>
                     </div>
                     <div className="w-full h-[4px] mb-10 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
-                    <div className="w-[8px] ml-[-4px] absolute bg-gradient-to-t from-[#FF8F28] to-[#FFD600] h-full" style={{ left: '50%' }}></div>
+                    <div className="w-[8px] ml-[-4px] absolute bg-gradient-to-t from-[#FF8F28] to-[#FFD600] h-full md:flex hidden" style={{ left: '50%' }}></div>
 
 
-                    <div className="mb-8 flex justify-between items-center w-full ">
-                        <div className="order-1 w-5/12 flex justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.vb.date')}</div>
-                        <div className="z-10 flex items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white"></div>
-                        <div className="order-1 bg-[#F4F0F0] w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500">
+                    <div className="mb-8 flex md:flex-row flex-col justify-between items-center w-full ">
+                        <div className="order-1 w-full md:w-5/12 justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.vb.date')}</div>
+                        <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
+                        <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500">
                             <h3 className="font-extrabold text-gray-800 text-3xl">
                                 <a href="https://www.vertbaudet.fr/" target="_blank" rel="noreferrer">
                                     Vertbaudet
@@ -43,10 +43,10 @@ export const Experience = () => {
                     </div>
 
 
-                    <div className="mb-8 flex justify-between flex-row-reverse items-center w-full">
-                        <div className="order-1 w-5/12 text-2xl font-bold text-gray-500 drop-shadow">{t('experience.ramery.date')}</div>
-                        <div className="z-10 flex items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white"></div>
-                        <div className="order-1 bg-[#F4F0F0] w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500">
+                    <div className="mb-8 flex md:flex-row-reverse flex-col justify-between items-center w-full">
+                        <div className="order-1 w-full md:w-5/12 text-2xl font-bold text-gray-500 drop-shadow">{t('experience.ramery.date')}</div>
+                        <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
+                        <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500">
                             <h3 className="font-extrabold text-gray-800 text-3xl">
                                 <a href="https://www.ramery.fr/" target="_blank" rel="noreferrer">
                                     Ramery Bâtiments
@@ -65,18 +65,18 @@ export const Experience = () => {
 
                 <div className="relative wrap overflow-hidden p-10">
 
-                    <div className="p-2 text-3xl font-extrabold uppercase tracking-widest w-full">
+                    <div className="p-2 text-2xl md:text-3xl text-center font-extrabold uppercase tracking-widest w-full">
                         <h1>{t('experience.subtitle2')}</h1>
                     </div>
                     <div className="w-full h-[4px] mb-10 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
-                    <div className="w-[8px] ml-[-4px] absolute bg-gradient-to-t from-[#FF8F28] to-[#FFD600] h-full" style={{ left: '50%' }}></div>
+                    <div className="w-[8px] ml-[-4px] absolute bg-gradient-to-t from-[#FF8F28] to-[#FFD600] h-full md:flex hidden" style={{ left: '50%' }}></div>
 
 
-                    <div className="mb-8 flex justify-between items-center w-full">
-                        <div className="order-1 w-5/12 flex justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.engineer.date')}</div>
-                        <div className="z-10 flex items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white"></div>
-                        <div className="order-1 bg-[#F4F0F0] w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
+                    <div className="mb-8 flex md:flex-row flex-col justify-between items-center w-full">
+                        <div className="order-1 w-full md:w-5/12 justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.engineer.date')}</div>
+                        <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
+                        <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
                             <h3 className="font-extrabold text-gray-800 text-xl">{t('experience.engineer.diploma')}</h3>
                             <h3 className="font-bold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent text-xl">
                                 <a href="https://imt-nord-europe.fr/" target="_blank" rel="noreferrer">
@@ -86,10 +86,10 @@ export const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="mb-8 flex justify-between flex-row-reverse items-center w-full">
-                        <div className="order-1 w-5/12 text-2xl font-bold text-gray-500 drop-shadow">{t('experience.dut.date')}</div>
-                        <div className="z-10 flex items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white"></div>
-                        <div className="order-1 bg-[#F4F0F0] w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
+                    <div className="mb-8 flex md:flex-row-reverse flex-col justify-between items-center w-full">
+                        <div className="order-1 w-full md:w-5/12 text-2xl font-bold text-gray-500 drop-shadow">{t('experience.dut.date')}</div>
+                        <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
+                        <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
                             <h3 className="font-bold text-gray-800 text-xl">{t('experience.dut.diploma')}</h3>
                             <p className="font-bold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent text-xl">
                                 <a href="https://www.iut-a.univ-lille.fr/" target="_blank" rel="noreferrer">
@@ -99,10 +99,10 @@ export const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="mb-8 flex justify-between items-center w-full">
-                        <div className="order-1 w-5/12 flex justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.highschool.date')}</div>
-                        <div className="z-10 flex items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white"></div>
-                        <div className="order-1 bg-[#F4F0F0] w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
+                    <div className="mb-8 flex md:flex-row flex-col justify-between items-center w-full">
+                        <div className="order-1 w-full md:w-5/12 justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.highschool.date')}</div>
+                        <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
+                        <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
                             <h3 className="font-bold text-gray-800 text-xl">{t('experience.highschool.diploma')}</h3>
                             <h3 className="text-gray-800 text-xl">{t('experience.highschool.dut')}</h3>
                             <p className="font-bold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent text-xl">
