@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.e46bca1b.css",
-    "main.js": "/static/js/main.dbc81331.js",
+    "main.js": "/static/js/main.eacafa48.js",
     "static/media/jeu-du-confinement.png": "/static/media/jeu-du-confinement.9f7c07130dfd6447d9b4.png",
+    "static/media/resume-fr.pdf": "/static/media/resume-fr.73e6aa6dd2416567efc4.pdf",
     "static/media/music.png": "/static/media/music.213e133fab38723a8f88.png",
     "static/media/minecraft-clone.png": "/static/media/minecraft-clone.cf7ded66514e0cf31a7b.png",
     "static/media/lightflix.png": "/static/media/lightflix.464a9588e6b93eace220.png",
@@ -41,10 +42,10 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/index.html",
     "main.e46bca1b.css.map": "/static/css/main.e46bca1b.css.map",
-    "main.dbc81331.js.map": "/static/js/main.dbc81331.js.map"
+    "main.eacafa48.js.map": "/static/js/main.eacafa48.js.map"
   },
   "entrypoints": [
     "static/css/main.e46bca1b.css",
-    "static/js/main.dbc81331.js"
+    "static/js/main.eacafa48.js"
   ]
 }
