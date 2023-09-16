@@ -15,7 +15,7 @@ export const Home = () => {
             <div className="bg-white shadow-lg sm:w-2/3 w-full h-1/2 flex items-start justify-center">
                 <div className="w-1/2 h-full md:flex hidden">
                     <iframe width="100%" height="100%"
-                            src="https://www.youtube.com/embed/cRT_n85a3tI?mute=1&autoplay=1"
+                            src="https://www.youtube.com/embed/q3euxkwpWpU?mute=1&autoplay=1"
                             frameBorder="0" allowFullScreen>
                     </iframe>
                 </div>
