@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e46bca1b.css",
-    "main.js": "/static/js/main.5060f034.js",
+    "main.js": "/static/js/main.98712c7e.js",
     "static/media/jeu-du-confinement.png": "/static/media/jeu-du-confinement.9f7c07130dfd6447d9b4.png",
     "static/media/resume-fr.pdf": "/static/media/resume-fr.510de64980b419281d96.pdf",
     "static/media/resume-en.pdf": "/static/media/resume-en.3a6be9b0b2bd947f6646.pdf",
@@ -43,10 +43,10 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/index.html",
     "main.e46bca1b.css.map": "/static/css/main.e46bca1b.css.map",
-    "main.5060f034.js.map": "/static/js/main.5060f034.js.map"
+    "main.98712c7e.js.map": "/static/js/main.98712c7e.js.map"
   },
   "entrypoints": [
     "static/css/main.e46bca1b.css",
-    "static/js/main.5060f034.js"
+    "static/js/main.98712c7e.js"
   ]
 }
