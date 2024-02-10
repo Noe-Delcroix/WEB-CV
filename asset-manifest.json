@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e46bca1b.css",
-    "main.js": "/static/js/main.98712c7e.js",
+    "main.css": "/static/css/main.b5e327eb.css",
+    "main.js": "/static/js/main.d0555769.js",
     "static/media/jeu-du-confinement.png": "/static/media/jeu-du-confinement.9f7c07130dfd6447d9b4.png",
     "static/media/resume-fr.pdf": "/static/media/resume-fr.510de64980b419281d96.pdf",
     "static/media/resume-en.pdf": "/static/media/resume-en.3a6be9b0b2bd947f6646.pdf",
@@ -42,11 +42,11 @@
     "static/media/css.png": "/static/media/css.57feb85c31eec0ff2e1a.png",
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/index.html",
-    "main.e46bca1b.css.map": "/static/css/main.e46bca1b.css.map",
-    "main.98712c7e.js.map": "/static/js/main.98712c7e.js.map"
+    "main.b5e327eb.css.map": "/static/css/main.b5e327eb.css.map",
+    "main.d0555769.js.map": "/static/js/main.d0555769.js.map"
   },
   "entrypoints": [
-    "static/css/main.e46bca1b.css",
-    "static/js/main.98712c7e.js"
+    "static/css/main.b5e327eb.css",
+    "static/js/main.d0555769.js"
   ]
 }
