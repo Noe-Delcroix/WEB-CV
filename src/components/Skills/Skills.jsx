@@ -181,11 +181,23 @@ export const Skills = () => {
                     <div className="w-full h-[4px] mb-5 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
 
 
-                    <ul className="w-full flex flex-col justify-center text-center">
+                    <ul className="w-full flex flex-col justify-center text-center mb-10">
                         <li className="text-2xl my-2 font-bold">{t('skills.soft1')}</li>
                         <li className="text-2xl my-2">{t('skills.soft2')}</li>
                         <li className="text-2xl my-2">{t('skills.soft3')}</li>
                         <li className="text-2xl my-2">{t('skills.soft4')}</li>
+                    </ul>
+
+
+                    <div className="p-2 text-2xl md:text-3xl text-center font-extrabold uppercase tracking-widest w-full">
+                        <h1>{t('skills.subtitle3')}</h1>
+                    </div>
+                    <div className="w-full h-[4px] mb-5 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
+
+
+                    <ul className="w-full flex flex-col justify-center text-center">
+                        <li className="text-2xl my-2">{t('skills.other1')}</li>
+                        <li className="text-2xl my-2">{t('skills.other2')}</li>
                     </ul>
                 </div>
 

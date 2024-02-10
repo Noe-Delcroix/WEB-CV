@@ -2,7 +2,7 @@ import {useTranslation} from "react-i18next";
 import EN from "country-flag-icons/react/3x2/GB";
 import FR from "country-flag-icons/react/3x2/FR";
 import React from "react";
-import Select,{ components } from "react-select";
+import Select from "react-select";
 
 export const LanguageSelector = () => {
 

@@ -24,7 +24,7 @@ export const Experience = () => {
 
 
                     <div className="mb-8 flex md:flex-row flex-col justify-between items-center w-full ">
-                        <div className="order-1 w-full md:w-5/12 justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.vb.date')}</div>
+                        <div className="order-1 w-full md:w-5/12 md:text-right justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.vb.date')}</div>
                         <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
                         <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500">
                             <h3 className="font-extrabold text-gray-800 text-3xl">
@@ -73,7 +73,7 @@ export const Experience = () => {
                     <div className="w-[8px] ml-[-4px] absolute bg-gradient-to-t from-[#FF8F28] to-[#FFD600] h-full md:flex hidden" style={{ left: '50%' }}></div>
 
 
-                    <div className="mb-8 flex md:flex-row flex-col justify-between items-center w-full">
+                    <div className="mb-8 flex md:flex-row flex-col md:text-right justify-between items-center w-full">
                         <div className="order-1 w-full md:w-5/12 justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.engineer.date')}</div>
                         <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
                         <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
@@ -100,7 +100,7 @@ export const Experience = () => {
                     </div>
 
                     <div className="mb-8 flex md:flex-row flex-col justify-between items-center w-full">
-                        <div className="order-1 w-full md:w-5/12 justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.highschool.date')}</div>
+                        <div className="order-1 w-full md:w-5/12 md:text-right justify-end text-2xl font-bold text-gray-500 drop-shadow">{t('experience.highschool.date')}</div>
                         <div className="z-10 items-center order-1 bg-gray-500 w-8 h-8 rounded-full border-4 border-white md:flex hidden"></div>
                         <div className="order-1 bg-[#F4F0F0] w-full md:w-5/12 px-6 py-4 shadow-xl hover:scale-110 duration-500 text-center">
                             <h3 className="font-bold text-gray-800 text-xl">{t('experience.highschool.diploma')}</h3>

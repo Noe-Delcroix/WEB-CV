@@ -1,7 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import React from "react";
 
 i18n
     .use(LanguageDetector)
@@ -83,6 +82,10 @@ i18n
                     "skills.soft2":"Teamwork",
                     "skills.soft3":"Creativity",
                     "skills.soft4":"Curiosity",
+
+                    "skills.subtitle3":"Other Skills",
+                    "skills.other1":"Image Editing (Photoshop, Paint.net)",
+                    "skills.other2":"Video Editing (DaVinci Resolve, CapCut)",
 
                     "projects.button.source":"Source code",
                     "projects.button.demo":"Try it online",
@@ -197,6 +200,10 @@ i18n
                     "skills.soft2":"Travail d'équipe",
                     "skills.soft3":"Créativité",
                     "skills.soft4":"Curiosité",
+
+                    "skills.subtitle3":"Autres compétences",
+                    "skills.other1":"Montage photo (Photoshop, Paint.net)",
+                    "skills.other2":"Montage vidéo (DaVinci Resolve, CapCut)",
 
                     "projects.button.source":"Code source",
                     "projects.button.demo":"Essayer en ligne",
