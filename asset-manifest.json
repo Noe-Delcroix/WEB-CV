@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.b5e327eb.css",
-    "main.js": "/static/js/main.d0555769.js",
+    "main.js": "/static/js/main.f3c555bb.js",
+    "static/media/resume-en.pdf": "/static/media/resume-en.83442807e806c9002d20.pdf",
     "static/media/jeu-du-confinement.png": "/static/media/jeu-du-confinement.9f7c07130dfd6447d9b4.png",
-    "static/media/resume-fr.pdf": "/static/media/resume-fr.510de64980b419281d96.pdf",
-    "static/media/resume-en.pdf": "/static/media/resume-en.3a6be9b0b2bd947f6646.pdf",
+    "static/media/me.jpg": "/static/media/me.d9132f6a941ea3c47720.jpg",
+    "static/media/resume-fr.pdf": "/static/media/resume-fr.756788f24c377841477c.pdf",
     "static/media/music.png": "/static/media/music.213e133fab38723a8f88.png",
     "static/media/minecraft-clone.png": "/static/media/minecraft-clone.cf7ded66514e0cf31a7b.png",
     "static/media/lightflix.png": "/static/media/lightflix.464a9588e6b93eace220.png",
@@ -20,7 +21,6 @@
     "static/media/visual-studio.png": "/static/media/visual-studio.432c755388c19c010317.png",
     "static/media/la-carte-aux-tresors.jpg": "/static/media/la-carte-aux-tresors.6ebf5f40476c9d728bf5.jpg",
     "static/media/sql-server.png": "/static/media/sql-server.c41d44039516fbaed21a.png",
-    "static/media/me.jpg": "/static/media/me.4bc50e4d68f87c4868db.jpg",
     "static/media/intellij.png": "/static/media/intellij.5a72d2162ffff8dc7595.png",
     "static/media/csharp.png": "/static/media/csharp.1f56ad587d9491297c6a.png",
     "static/media/atom.png": "/static/media/atom.82966ee8f615b7f97263.png",
@@ -43,10 +43,10 @@
     "static/media/html.png": "/static/media/html.ff3cf75e3b7cbb4ea77c.png",
     "index.html": "/index.html",
     "main.b5e327eb.css.map": "/static/css/main.b5e327eb.css.map",
-    "main.d0555769.js.map": "/static/js/main.d0555769.js.map"
+    "main.f3c555bb.js.map": "/static/js/main.f3c555bb.js.map"
   },
   "entrypoints": [
     "static/css/main.b5e327eb.css",
-    "static/js/main.d0555769.js"
+    "static/js/main.f3c555bb.js"
   ]
 }
