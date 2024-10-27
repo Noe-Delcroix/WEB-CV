@@ -49,12 +49,6 @@ export const About = () => {
                         <p className="text-xl sm:text-justify mt-5">
                             {t('about.p2')}
                         </p>
-
-                        <p className="text-xl mt-5 sm:text-justify">
-                            <b>{t('about.p3')}</b>
-                        </p>
-
-
                     </div>
                 </div>
 

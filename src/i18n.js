@@ -36,7 +36,6 @@ i18n
                     "about.title2":", nice to meet you !",
                     "about.p1":"I'm a {0} years old french developer, currently following a work-study program as a web developer in a french children's clothing company called Vertbaudet. I'm studying computer science and network engineering at IMT Nord Europe.",
                     "about.p2":"I've been passionate about computers and development for a long time and I'm always looking for new challenges to discover new technologies !",
-                    "about.p3":"I'm currently looking for a two- to three-month internship (June to August 2024) abroad in IT engineering.",
 
                     "experience.subtitle1":"Work Experience",
 
@@ -154,7 +153,6 @@ i18n
                     "about.title2":", ravi de vous rencontrer !",
                     "about.p1":"Je suis un développeur français de {0} ans, suivant actuellement un cycle d'ingénieur informatique en apprentissage à l'IMT Nord Europe.",
                     "about.p2":"Je suis passionné par l'informatique et le développement depuis longtemps et je suis toujours à la recherche de nouveaux défis pour découvrir de nouvelles technologies !",
-                    "about.p3":"Je suis actuellement à la recherche d'un stage à l'étranger de deux à trois mois (Juin à Août 2024) en ingénierie informatique.",
 
                     "experience.subtitle1":"Expériences Professionnelles",
 
