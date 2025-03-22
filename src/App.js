@@ -1,12 +1,8 @@
 import Navbar from "./components/Navbar";
 import {Home} from "./components/Home";
-import {Experience} from "./components/Experience";
 import {SideCards} from "./components/SideCards";
 import {About} from "./components/About";
-import {Skills} from "./components/Skills/Skills";
 import {Projects} from "./components/Projects/Projects";
-import {Hobbies} from "./components/Hobbies";
-import {Contact} from "./components/Contact";
 import { PdfProvider } from './components/pdf/PdfProvider.jsx';
 import i18n from "i18next";
 
@@ -23,14 +19,10 @@ function App() {
             <PdfProvider>
                 <Navbar />
                 <SideCards />
+                <Home />
+                <About />
+                <Projects />
             </PdfProvider>
-            <Home />
-            <About />
-            <Experience />
-            <Skills />
-            <Projects />
-            <Hobbies />
-            <Contact />
         </div>
     );
 }

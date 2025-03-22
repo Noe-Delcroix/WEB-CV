@@ -4,7 +4,7 @@ import {PdfContext} from "./PdfContext";
 import {useTranslation} from "react-i18next";
 
 export const PdfProvider = ({ children }) => {
-    const { t ,i18n} = useTranslation();
+    const {i18n} = useTranslation();
 
     const pdfMap = {
         fr: resumeFR,
@@ -12,12 +12,7 @@ export const PdfProvider = ({ children }) => {
     };
 
     const downloadPdfFromFile = () => {
-        const link = document.createElement('a');
-        link.href = pdfMap[i18n.language] || resumeFR;
-        link.download = t('nav.button') + '_Noé_Delcroix.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        window.open(pdfMap[i18n.language] || resumeFR, '_blank');
     };
 
     return (

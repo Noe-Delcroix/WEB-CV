@@ -6,7 +6,7 @@ import {BsFillPlayFill} from "react-icons/bs";
 
 function Project({title, date, isSchoolProject, description, technologies, githubLink, onlineLink}) {
 
-    const { t } = useTranslation();
+    const { t } = useTranslation(); //TODO : penser à refaire avec le nouveau TranslatedText
 
     return (
         <div className='md:w-1/3 w-3/4 flex flex-col justify-start bg-black py-3 px-10 bg-opacity-70'>

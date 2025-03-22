@@ -98,34 +98,49 @@ export const Projects = () => {
     };
 
     return (
-        <section name='projects'
-                 className="w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat flex flex-col items-center justify-center"
-                 style={{ backgroundImage: `url(${Background})` }}>
-
-            <div className="relative w-full h-full sm:w-3/4 sm:h-3/4 bg-cover bg-center bg-no-repeat flex items-center justify-center"
-                style={{ backgroundImage: `url(${slides[activeIndex].backgroundImage})` }}>
-
-                <div className="absolute top-1/2 left-4 transform -translate-y-1/2">
-                    <button onClick={() => goToSlide(activeIndex - 1)} className="bg-black text-white p-2 hover:scale-110 duration-500"><IoIosArrowBack className="text-3xl"/></button>
-                </div>
-
-                <div className="absolute top-1/2 right-4 transform -translate-y-1/2">
-                    <button onClick={() => goToSlide(activeIndex + 1)} className="bg-black text-white p-2 hover:scale-110 duration-500"><IoIosArrowForward className="text-3xl"/></button>
-                </div>
-
-                {slides[activeIndex].component}
-
-                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-6">
-                    {slides.map((slide, index) => (
-                        <button
-                            key={index}
-                            className={`h-4 w-4 bg-white rounded-full hover:scale-125 duration-200 ${index === activeIndex ? 'opacity-100' : 'opacity-50'}`}
-                            onClick={() => goToSlide(index)}
-                        ></button>
-                    ))}
-                </div>
+        <div>
+            <div className="p-4 text-4xl font-bold uppercase tracking-widest w-full bg-gradient-to-r from-[#FF8F28] to-[#FFD600] flex justify-center">
+                <h1>{t('nav.projects')}</h1>
             </div>
 
-        </section>
+            <section name='projects'>
+                <div className="w-full h-screen bg-cover bg-center bg-fixed bg-no-repeat flex flex-col items-center justify-center"
+                    style={{ backgroundImage: `url(${Background})` }}>
+                    <div className="relative w-full h-full sm:w-3/4 sm:h-3/4 bg-cover bg-center bg-no-repeat flex items-center justify-center"
+                        style={{ backgroundImage: `url(${slides[activeIndex].backgroundImage})` }}>
+
+                        <div className="absolute top-1/2 left-4 transform -translate-y-1/2">
+                            <button onClick={() => goToSlide(activeIndex - 1)} className="bg-black text-white p-2 hover:scale-110 duration-500"><IoIosArrowBack className="text-3xl"/></button>
+                        </div>
+
+                        <div className="absolute top-1/2 right-4 transform -translate-y-1/2">
+                            <button onClick={() => goToSlide(activeIndex + 1)} className="bg-black text-white p-2 hover:scale-110 duration-500"><IoIosArrowForward className="text-3xl"/></button>
+                        </div>
+
+                        {slides[activeIndex].component}
+
+                        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-6">
+                            {slides.map((slide, index) => (
+                                <button
+                                    key={index}
+                                    className={`h-4 w-4 bg-white rounded-full hover:scale-125 duration-200 ${index === activeIndex ? 'opacity-100' : 'opacity-50'}`}
+                                    onClick={() => goToSlide(index)}
+                                ></button>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+
+            </section>
+
+
+        </div>
+
+
+
+        
     );
 };
