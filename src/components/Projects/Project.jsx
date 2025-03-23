@@ -1,42 +1,65 @@
-    import React from 'react';
+import React from 'react';
 
 import {FaGithub} from "react-icons/fa";
 import {BsFillPlayFill} from "react-icons/bs";
-    import {useTranslation} from "react-i18next";
+import TranslatedText from "../TranslatedText";
 
-function Project({title, date, isSchoolProject, description, technologies, githubLink, onlineLink}) {
-
-    const { t } = useTranslation(); //TODO : penser à refaire avec le nouveau TranslatedText
+function Project({name, isSchoolProject, technologies, githubLink, onlineLink}) {
 
     return (
-        <div className='md:w-1/3 w-3/4 flex flex-col justify-start bg-black py-3 px-10 bg-opacity-70'>
+        <div className='md:w-1/3 sm:w-2/3 w-full flex flex-col justify-start py-3 px-10 backdrop-blur-sm bg-black/10 rounded-md'>
 
             <div className="p-2 text-3xl font-extrabold uppercase tracking-widest w-full text-white text-center">
-                <h1>{title}</h1>
+                <TranslatedText as="h1" translationKey={"projects."+name+".title"}/>
             </div>
             <div className="w-full h-[4px] mb-1 bg-gradient-to-r from-[#FF8F28] to-[#FFD600]"></div>
-            <h2 className="mb-5 font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent uppercase text-center">{date} - {isSchoolProject ? t("projects.type.school") : t("projects.type.personal")}</h2>
+            <div className="mb-5 flex items-center justify-center">
+                <TranslatedText 
+                    translationKey={"projects."+name+".date"}
+                    className='font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent uppercase text-center'
+                />
+                <TranslatedText 
+                    text=" - "
+                    className='font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent uppercase text-center px-2'
+                />
+                <TranslatedText 
+                    translationKey={`projects.type.${isSchoolProject ? 'school' : 'personal'}`}
+                    className='font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent uppercase text-center'
+                />
+            </div>
 
-            <p className="text-white text-justify mb-5">{description}</p>
+            <TranslatedText as ="p" className="text-white text-justify mb-5" translationKey={"projects."+name+".desc"}/>
 
             <ul className="flex justify-center items-center">
                 {technologies.map((technology) => (
-                    <li className="bg-gradient-to-r font-extrabold from-[#FF8F28] to-[#FFD600] py-1 px-3 mx-5 mb-10">{technology}</li>
+
+                    <li className="font-extrabold text-white py-1 px-2 mx-5 mb-10 rounded-md border-2">
+                        <TranslatedText text={technology}/>
+                    </li>
                 ))}
             </ul>
 
-            <div className="flex justify-center">
-
+            <div className="flex justify-evenly">
+                
                 {onlineLink &&
-                    <a className="w-1/2 cursor-pointer group text-white border-2 border-white duration-300 hover:bg-[#FF8F28] flex items-center justify-center p-2 m-2"
-                       href={onlineLink} target="_blank" rel="noreferrer">
-                        <BsFillPlayFill className="mr-3"/> {t("projects.button.demo")}
+                    <a class="group relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-md bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-medium text-neutral-200 transition-all duration-300 hover:w-40" href={onlineLink} target="_blank" rel="noreferrer">
+                        <div class="inline-flex whitespace-nowrap opacity-0 transition-all duration-200 group-hover:-translate-x-3 group-hover:opacity-100 mr-3 text-black">
+                            <TranslatedText translationKey="projects.button.demo"/>
+                        </div>
+                        <div class="absolute right-0 text-black">
+                            <BsFillPlayFill className="mr-2 text-3xl"/>
+                        </div>
                     </a>
                 }
+                
                 {githubLink &&
-                    <a className="w-1/2 cursor-pointer group text-white border-2 border-white duration-300 hover:bg-[#FF8F28] flex items-center justify-center p-2 m-2"
-                       href={githubLink} target="_blank" rel="noreferrer">
-                        <FaGithub className="mr-3"/> {t("projects.button.source")}
+                    <a class="group relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-md bg-gradient-to-r from-[#FF8F28] to-[#FFD600] font-medium text-neutral-200 transition-all duration-300 hover:w-40" href={githubLink} target="_blank" rel="noreferrer">
+                        <div class="inline-flex whitespace-nowrap opacity-0 transition-all duration-200 group-hover:-translate-x-3 group-hover:opacity-100 mr-3 text-black">
+                            <TranslatedText translationKey="projects.button.source"/>
+                        </div>
+                        <div class="absolute right-0 text-black">
+                            <FaGithub className="mr-2 text-3xl"/>
+                        </div>
                     </a>
                 }
 

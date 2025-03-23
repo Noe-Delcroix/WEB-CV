@@ -46,7 +46,7 @@ export const About = () => {
                         <div className="text-2xl sm:text-4xl font-bold mb-10">
                             <TranslatedText translationKey="about.title1" /> 
                             
-                            <TranslatedText text="Noé" className="pl-3 sm:text-6xl text-4xl font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent"/>
+                            <TranslatedText text="Noé" className="pl-3 pr-3 sm:text-6xl text-4xl font-extrabold bg-clip-text bg-gradient-to-r from-[#FF8F28] to-[#FFD600] text-transparent"/>
                             
                             <TranslatedText translationKey="about.title2" />
                         </div>

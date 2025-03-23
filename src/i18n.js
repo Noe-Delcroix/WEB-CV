@@ -19,7 +19,7 @@ i18n
                     "nav.about": "About",
                     "nav.experience": "Experience",
                     "nav.skills": "Skills",
-                    "nav.projects": "Projects",
+                    "nav.projects": "My projects",
                     "nav.hobbies": "Hobbies",
                     "nav.contact": "Contact",
 
@@ -45,6 +45,18 @@ i18n
                     "projects.type.school":"School project",
                     "projects.type.personal":"Personal project",
 
+                    "projects.forgor.title":"Forgor - VR survival game",
+                    "projects.forgor.date":"January 2025",
+                    "projects.forgor.desc":"VR survival game developed in two weeks on Unity. Combine objects found on a procedurally generated map to achieve your goals!",
+
+                    "projects.lamazon.title":"Lamazon",
+                    "projects.lamazon.date":"October 2024",
+                    "projects.lamazon.desc":"Prototype E-commerce web application for selling llamas plushies, developped and deployed on the AWS cloud.",
+
+                    "projects.deploy.title":"Deployment application",
+                    "projects.deploy.date":"January 2024",
+                    "projects.deploy.desc":"Web application to deploy and monitor projects on a server.",
+
                     "projects.minecraftclone.title":"Minecraft Clone",
                     "projects.minecraftclone.date":"September 2023",
                     "projects.minecraftclone.desc":"Minecraft remade from scratch in C# with OpenGL. Includes a custom game engine and a world generator",
@@ -60,10 +72,6 @@ i18n
                     "projects.3d.title":"3D Visualizer",
                     "projects.3d.date":"December 2021",
                     "projects.3d.desc":"3D file visualization software (.ply) with integrated file library and extensive display customization",
-
-                    "projects.ant.title":"Ant Simulation",
-                    "projects.ant.date":"March 2021",
-                    "projects.ant.desc":"A program designed to simulate the behavior of ants as they go back and forth to collect food and return it to the colony, using pheromones to orient themselves",
 
                     "projects.lockdown.title":"\"Le Jeu du confinement\" (Lockdown game)",
                     "projects.lockdown.date":"May 2020",
@@ -108,6 +116,18 @@ i18n
                     "projects.type.school":"Projet universitaire",
                     "projects.type.personal":"Projet personnel",
 
+                    "projects.forgor.title":"Forgor - Jeu de survie VR",
+                    "projects.forgor.date":"Janvier 2025",
+                    "projects.forgor.desc":"Jeu de survie en VR développé en deux semaines sur Unity. Combinez des objets trouvés sur une map générée procéduralement afin d'attiendre vos objectifs !",
+
+                    "projects.lamazon.title":"Lamazon",
+                    "projects.lamazon.date":"Octobre 2024",
+                    "projects.lamazon.desc":"Prototype d'application web E-commerce de vente de lamas en peluche, déployée sur le cloud AWS.",
+
+                    "projects.deploy.title":"Application de déploiement",
+                    "projects.deploy.date":"Janvier 2024",
+                    "projects.deploy.desc":"Application web permettant de deployer et de suivre le déploiement de projets sur un serveur.",
+
                     "projects.minecraftclone.title":"Minecraft Clone",
                     "projects.minecraftclone.date":"Septembre 2023",
                     "projects.minecraftclone.desc":"Minecraft refait de zéro en C# avec OpenGL. Inclut un moteur de jeu personnalisé et un générateur de monde",
@@ -123,10 +143,6 @@ i18n
                     "projects.3d.title":"Visualiseur 3D",
                     "projects.3d.date":"Décembre 2021",
                     "projects.3d.desc":"Logiciel de visualisation de fichiers 3D (.ply) avec bibliothèque de fichiers intégrée et personnalisation de l'affichage",
-
-                    "projects.ant.title":"Simulation de fourmis",
-                    "projects.ant.date":"Mars 2021",
-                    "projects.ant.desc":"Un programme conçu pour simuler le comportement des fourmis lorsqu'elles vont et viennent pour collecter de la nourriture et la ramener à la colonie, en utilisant des phéromones pour s'orienter",
 
                     "projects.lockdown.title":"\"Le Jeu du confinement\"",
                     "projects.lockdown.date":"Mai 2020",
