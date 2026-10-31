@@ -34,7 +34,7 @@ i18n
 
                     "about.title1":"Hello, my name is",
                     "about.title2":"Nice to meet you !",
-                    "about.p1":"I'm a {0} years old french developer, currently following a work-study program as a web developer in a french children's clothing company called Vertbaudet. I'm studying computer science and network engineering at IMT Nord Europe.",
+                    "about.p1":"I am {0} years old and hold a degree in computer science and networking; I currently work as a web developer at Vertbaudet",
                     "about.p2":"I've been passionate about computers and development for a long time and I'm always looking for new challenges to discover new technologies !",
                     "about.career":"My career",
                     "about.resume":"See my resume",
@@ -105,7 +105,7 @@ i18n
 
                     "about.title1":"Salut, moi c'est",
                     "about.title2":"Ravi de vous rencontrer !",
-                    "about.p1":"Je suis un ingénieur français de {0} ans, suivant actuellement un cycle d'ingénieur informatique en apprentissage à l'IMT Nord Europe.",
+                    "about.p1":"Agé de {0} ans et titulaire d'un diplôme d'ingénieur en informatique et réseaux, je travaille actuellement en tant que développeur web chez Vertbaudet.",
                     "about.p2":"Je suis passionné par l'informatique et le développement depuis longtemps et je suis toujours à la recherche de nouveaux défis pour découvrir de nouvelles technologies !",
                     "about.career":"Mon parcours",
                     "about.resume":"Voir mon CV",
