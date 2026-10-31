@@ -12,10 +12,10 @@ export const SideCards = () => {
         <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
             <ul>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-gradient-to-r from-[#FF8F28] to-[#FFD600] px-4 duration-300 bg-white rounded-tr-md hover:rounded-md drop-shadow">
-                    <a className="flex justify-between items-center w-full text-black cursor-pointer" onClick={downloadPdf}>
+                    <button className="flex justify-between items-center w-full text-black cursor-pointer" onClick={downloadPdf}>
                         <TranslatedText translationKey="side.resume"/>
                         <BsFillPersonLinesFill size={30}/>
-                    </a>
+                    </button>
                 </li>
 
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] px-4 duration-300 bg-white hover:rounded-md drop-shadow">
